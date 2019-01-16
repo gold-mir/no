@@ -1,7 +1,7 @@
 {
-  "name": "Template",
+  "name": "Async_Sandbox",
   "version": "1.0.0",
-  "description": "template NPM setup with karma/jasmine",
+  "description": "playing around with promises and async/await and scryfall",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -16,6 +16,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.10",
     "eslint": "^4.18.2",
